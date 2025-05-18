@@ -2,11 +2,91 @@
 # Proyectos_GitHub
 Varios_proyectos
 =======
-# 🔐 Aplicación de Cifrado y Descifrado de Números
+# 🔐 <<<<<<< HEAD
+# Proyectos_GitHub
+Varios_proyectos
+=======
+# Dashboard de Mortalidad en Colombia
 
 **Nombre del estudiante:** Mario Esteban Vargas Pisco  
 **Asignatura:** Aplicaciones I - Maestría en Inteligencia Artificial - Profundización
 **Fecha:** Mayo 10, 2025
+**Universidad**  La Salle
+
+---
+
+## 📘 Introducción
+
+Este dashboard interactivo presenta visualizaciones detalladas sobre la mortalidad en Colombia, permitiendo el análisis geográfico, demográfico y por causas de muerte. Está construido con `Dash`, `Plotly`, y `SQLite`, y desplegado mediante **Render.com**.
+
+---
+
+## 📁 Estructura del Proyecto
+
+mortality_dashboard/
+│
+├── app.py # Punto de entrada de la aplicación
+├── requirements.txt # Dependencias necesarias para Render
+├── Procfile # Configuración para despliegue
+│
+├── assets/ # Estilos personalizados e imágenes
+│ ├── custom.css
+│ └── logo_ministerio.png
+│
+├── data/ # Datos fuente (GeoJSON, SQLite, Excel)
+│ ├── mortality_dw.db
+│ ├── colombia.geo.json
+│ ├── Divipola_CE_.xlsx
+│ └── CodigosDeMuerte.xlsx
+│
+├── scripts/ # ETLs y construcción del DW
+│ └── mortality_dw_creation.py
+│
+└── src/ # Componentes funcionales
+├── layout.py # Diseño del dashboard y visualizaciones
+└── utils.py # Funciones auxiliares (limpieza, conexión, etc.)
+
+## 📌 Visualizaciones Incluidas
+
+- 🗺️ Mapa coroplético de muertes por departamento
+- 📈 Línea temporal de muertes por mes
+- 📊 Barras con los 5 municipios con más homicidios
+- 🥧 Gráfico circular: 10 ciudades con menor mortalidad
+- 🧾 Tabla: principales causas de muerte
+- 📉 Histograma de muertes por edad
+- 🚻 Gráfico de barras apiladas por sexo y departamento
+
+---
+
+## ⚙️ Tecnologías Usadas
+
+- Python 3.11+
+- Dash
+- Plotly
+- Pandas
+- SQLite
+- GeoJSON
+- Gunicorn (para despliegue)
+
+---
+
+## 🚀 Despliegue en Render
+
+Para desplegar el proyecto en [Render.com](https://render.com):
+
+1. Asegúrate de que `requirements.txt` y `Procfile` están en la raíz del repositorio.
+2. El `Procfile` debe contener:
+
+
+## 🧠 Conclusión
+
+A través de esta actividad se logró comprender la estructura básica de una interfaz gráfica usando Python y Tkinter. Se aplicaron principios de lógica y diseño modular, además de integrarse con herramientas como PyInstaller y GitHub. Este proyecto fortaleció la autonomía técnica en el desarrollo de soluciones sencillas, prácticas y presentables.
+>>>>>>> 1a1a94dcccef31045840ce66187a27426641ac2b
+
+
+**Nombre del estudiante:** Mario Esteban Vargas Pisco  
+**Asignatura:** Aplicaciones I - Maestría en Inteligencia Artificial - Profundización
+**Fecha:** Mayo 18, 2025
 **Universidad**  La Salle
 
 ---
