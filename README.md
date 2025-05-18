@@ -92,7 +92,8 @@ Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases 
 
 | 🖥️ Evidencia en Dash | 🌐 Render (Vista 1) | 🌐 Render (Vista 2) |
 |----------------------|--------------------|---------------------|
-| ![Dash 1](assets/Evidencia%20Dash.png) | ![Render 1](assets/Evidencia%20del%20Dashboard%20en%20Render.png) | ![Render 2](assets/Evidencia%20del%20Dashboard%20en%20Render%202.png) |
+| ![Dash 1](assets/Evidencia%20Dash.png) | ![Render 1](assets/Evidencia%20del%20Dashboard%20en%20Render.png)
+ | ![Render 2](assets/Evidencia%20del%20Dashboard%20en%20Render%202.png) |
 
 ---
 
@@ -100,3 +101,5 @@ Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases 
 
 **Correo:** mevargasp@unisalle.edu.co  
 **GitHub:** [@marioevargasp95](https://github.com/marioevargasp95)
+
+---
