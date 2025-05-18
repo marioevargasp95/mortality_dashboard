@@ -9,7 +9,9 @@
 
 ## 🧩 Descripción
 
-Este dashboard interactivo presenta visualizaciones detalladas sobre la mortalidad en Colombia, permitiendo el análisis geográfico, demográfico y por causas de muerte. Está construido con `Dash`, `Plotly`, y `SQLite`, y desplegado mediante **Render.com**.
+Este proyecto tiene como propósito desarrollar una aplicación web interactiva para visualizar patrones de mortalidad en Colombia, haciendo uso de Python, Dash y un modelo de Data Warehouse. La solución combina herramientas de desarrollo web con principios de ingeniería de datos para facilitar la toma de decisiones en salud pública.
+
+El uso de Dash y Plotly permite la creación de dashboards con componentes visuales ricos e interactivos, sin necesidad de programación web avanzada. Por otro lado, el modelado Data Warehouse garantiza una estructura de datos optimizada, confiable y preparada para análisis multidimensional.
 
 ---
 
@@ -42,6 +44,23 @@ mortality_dashboard/
 
 ---
 
+---
+## 📦 Data Warehouse
+Se construyó un modelo de Data Warehouse para la mortalidad en Colombia con las siguientes características: 
+
+- Hechos: hechos_mortalidad (fecha, edad, sexo, causa de muerte, código DANE)
+
+Dimensiones:
+
+- dim_ubicacion: datos geográficos normalizados (departamento, municipio)
+
+- dim_tiempo (si aplica): año, mes
+
+- dim_causa: código CIE10 y descripción
+
+El modelo garantiza consistencia, velocidad de consulta y facilidad para construir indicadores agregados por múltiples niveles.
+---
+
 ## 📌 Visualizaciones Incluidas
 
 - 🗺️ Mapa coroplético de muertes por departamento
@@ -70,6 +89,18 @@ mortality_dashboard/
 
 Para desplegar el proyecto en [Render.com](https://render.com):
 
+Pasos realizados:
+
+Estructura modular del código
+
+requirements.txt y Procfile para despliegue
+
+app.run() actualizado para compatibilidad
+
+Publicación en https://mortality-dashboard.onrender.com
+
+🔐 Se validó que el enlace esté activo, accesible públicamente y cargue todos los recursos necesarios (GeoJSON, DB).
+
 1. Se aseguro de que `requirements.txt` y `Procfile` están en la raíz del repositorio.
 2. El `Procfile` debe contener:
    ```
@@ -83,7 +114,16 @@ Para desplegar el proyecto en [Render.com](https://render.com):
 
 ## 🧠 Conclusión
 
-Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases de datos y despliegue web. Facilita la exploración de patrones de mortalidad de forma visual y accesible para la toma de decisiones.
+El proyecto permitió integrar y aplicar conocimientos clave en Python, Dash y análisis de datos. La experiencia de construir un dashboard desde cero, organizarlo de forma modular, conectarlo con bases SQLite apoyandose  y publicarlo en la web demuestra la versatilidad de estas herramientas.
+
+Dash y Plotly ofrecieron una alternativa ágil para crear visualizaciones potentes, mientras que Render facilitó un despliegue accesible.
+Se identificaron oportunidades de mejora como:
+
+Incluir filtros por año o región.
+
+Permitir exportar los gráficos como PDF.
+
+Habilitar autenticación de usuarios para diferentes roles.
 
 ---
 
