@@ -87,6 +87,16 @@ Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases 
 
 ---
 
+---
+## 🖼️ Evidencia del Dashboard en Dash y Render
+
+![Dashboard desplegado en Dash](assets/Evidencia Dash.png)
+
+| Ventana Dash                      | Ventana de Dasg                    | Ventana Reder               |Ventana de Reder                    | 
+|----------------------------------------|---------------------------------------|---------------------------------------|
+| ![Main](screenshots/main.PNG) | ![Cifrado](screenshots/cifrado.PNG) | ![Descifrado](screenshots/descifrado.PNG) |
+---
+
 ## 📬 Contacto
 
 **Correo:** mevargasp@unisalle.edu.co  
