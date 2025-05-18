@@ -92,9 +92,9 @@ Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases 
 
 ![Dashboard desplegado en Dash](assets/Evidencia Dash.png)
 
-| Ventana Dash                      | Ventana de Dasg                    | Ventana Reder               |Ventana de Reder                    | 
+| 🖥️ Evidencia del Dashboard en Dash y Render                | 🌐 Dashboard desplegado en Render                 | 
 |----------------------------------------|---------------------------------------|---------------------------------------|
-| ![Main](screenshots/main.PNG) | ![Cifrado](screenshots/cifrado.PNG) | ![Descifrado](screenshots/descifrado.PNG) |
+| ![Dash 1 ](screenshots/Evidencia Dash.PNG) | ![Dash 2 ](screenshots/Evidencia Dash 2.PNG) | ![Render 1](screenshots/Evidencia del Dashboard en Render.PNG) |[Render 2](screenshots/Evidencia del Dashboard en Render 2.PNG) |
 ---
 
 ## 📬 Contacto
