@@ -90,9 +90,10 @@ Este proyecto integra múltiples habilidades en desarrollo de dashboards, bases 
 ---
 ## 🖼️ Evidencia del Dashboard en Dash y Render
 
-| 🖥️ Evidencia del Dashboard en Dash y Render                | 🌐 Dashboard desplegado en Render                 | 
-|----------------------------------------|---------------------------------------|---------------------------------------|
-| ![Dash 1 ](assets/Evidencia%20Dash.PNG) | ![Dash 2 ](assets/Evidencia%Dash%2.PNG) | ![Render 1](assets/Evidencia$del%Dashboard%en%Render.PNG) |[Render 2](assets/Evidencia$del$Dashboard%en%Render%2.PNG) |
+| 🖥️ Evidencia en Dash | 🌐 Render (Vista 1) | 🌐 Render (Vista 2) |
+|----------------------|--------------------|---------------------|
+| ![Dash 1](assets/Evidencia%20Dash.png) | ![Render 1](assets/Evidencia%20del%20Dashboard%20en%20Render.png) | ![Render 2](assets/Evidencia%20del%20Dashboard%20en%20Render%202.png) |
+
 ---
 
 ## 📬 Contacto
