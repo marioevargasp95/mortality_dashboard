@@ -4,7 +4,6 @@ dash-bootstrap-components
 pandas
 plotly
 openpyxl
-dash-bootstrap-components
 geopandas
 sqlalchemy
 gunicorn
