@@ -1,8 +1,0 @@
-# Ignorar cosas innecesarias
-__pycache__/
-*.pyc
-
-# Puedes comentar estas líneas si necesitas subir archivos .db y .json:
-# *.db
-# *.json
-# data/
